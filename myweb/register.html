@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="reg.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="header-kiri">
+        <h1>ZIYADA</h1>
+      </div>
+    </div>
+
+  <!-- navbar -->
+  <nav>
+    <div class="nav-menu">
+        <ul>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+    
+        <div class="nav-register-login">
+          <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="dashboard.html">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+      <!-- Content -->
+      <div class="content-row">
+        <div class="content1">
+          <h1>Register</h1>
+          <!-- Text box (ID,Nama)-->
+          <form id="survey-form">
+            <div id="p" class="id">
+              <label for="id" id="name-label">ID </label>
+              <input type="text" id="id" name="id" placeholder="Masukan ID anda" required />
+            </div>
+            <div id="p" class="email">
+                <label for="email" id="email-label">Email </label>
+                <input type="email" id="email" name="email" placeholder="Masukan email anda" required />
+              </div>
+      
+              <!-- Radio button (JK) -->
+              <div id="p" class="jenis-kelamin">
+                <label>JK </label>
+                <input type="radio" name="gender" value="male" id="gender" /> Male</label>
+                <input type="radio" name="gender" value="female" id="gender" /> Female</label>
+              </div>
+      
+              <!-- Select box (Agama) -->
+              <div id="p" class="agama">
+                <label for="dropdown">Agama </label>
+                <select id="dropdown" name="occupation" required>
+                  <option value="" disabled selected>Pilih beberapa opsi</option>
+                  <option value="islam">Islam</option>
+                  <option value="kristen">Kristen</option>
+                  <option value="katolik">Katolik</option>
+                  <option value="hindu">Hindu</option>
+                  <option value="budha">Budha</option>
+                  <option value="konghucu">konghucu</option>
+                </select>
+              </div>
+ <!-- text area (Alamat) -->
+ <div id="p" class="alamat">
+    <label for="alamat "> Alamat </label>
+    <textarea id="alamat" name="alamat" placeholder="Isi Alamat"></textarea>
+
+  </div>
+
+  <!-- button -->
+  <div class="buttons">
+    <a href="dashboard.html">
+    <button id="button1">Daftar</button>
+  </a>
+    <button id="button2">Batal</button>
+  </div>
+</form>
+</div>
+
+<!-- column 3 -->
+<div class="content3">
+    <label> Hobi </label>
+
+  </div>
+
+  <div class="content2">
+
+    <form>
+      <!-- hobi -->
+      <label><input type="checkbox" name="hobby" value="reading" /> Membaca</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="sports" /> Olahraga</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="music" /> Musik</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="mancing" /> Macing</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="otomotif" /> Otomotif</label>
+      <br>
+      <label><input type="text" name="hobby" id="input-text-c2" placeholder="Lainnya" /></label>
+    </form>
+  </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-content">
+      <p>Hak Cipta &copy; 2024 Mohammad Dhimas Afrizal.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>  
